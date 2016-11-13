@@ -29,8 +29,15 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+
 	line-height: 1;
 }
+
+html, body {
+    width: 100%;
+    width: 100%;
+}
+
 ol, ul {
 	list-style: none;
 }
