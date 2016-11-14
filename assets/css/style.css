@@ -1,14 +1,15 @@
 
 * {
   box-sizing: border-box;
-  text-align: center;
 }
 
 h1 {
 	background-color: #4aaaa5;
 	color: white;
-	width: 275px;
+	width: 300px;
 	text-align: center;
+	padding: 19px;
+
 
 }
 
@@ -24,15 +25,20 @@ header {
 		background-color: white;
 		height: 100px;
 		width: 100%;
+		top: 0;
+		margin-top: -20px;
 		 }
 
 a {
+	text-decoration: none;
+	color: grey;
 	;
 	
 }
 
 p {
 	line-height: 2em;
+	text-align: justify;
 }
 
 body {
@@ -43,6 +49,8 @@ body {
 
 #aboutlinks {
 	float:right;
+	color: grey;
+
 }
 
 .main_info {
@@ -59,7 +67,8 @@ body {
 .sidebar {
 	width: 270px;
 	float: right;
-	margin-top: 22px;
+	margin-top: 40px;
+	padding: 10px;
 	background-color: white;
 	color: #4aaaa5;
 	text-align: center;
@@ -81,4 +90,39 @@ footer {
 	text-align: center;
 	margin-bottom: 0;
 	bottom: 0;
+}
+
+/*contact info below for form */
+
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 450px;
+	font-size: 1.4em;
+	margin: 10px 0px 10px 0px;
+	border: 0.5px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 150px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px grey;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: left;
+	color: white;
+	background-color: #4aaaa5;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	color: grey;
 }
