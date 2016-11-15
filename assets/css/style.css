@@ -24,10 +24,11 @@ h5 {
 	background-color: #4aaaa5;
 	color: white;
 	position: absolute;
-	display: inline;
 	padding: 10px;
 	font-size: 1.5em;
 	bottom: 5px;
+	width: 250px;
+	display: inline-block;
 }
 
 h1, h2, h4, h5 {
